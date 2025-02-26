@@ -1,0 +1,932 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:"width" 100;
+    
+} 
+
+/*--------------- start- nav--------- */
+
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0,0 , 0.801);
+}
+
+nav>div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > div > div:last-child a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    margin: 7px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+
+nav > div > div:last-child a:hover{
+    color: #58cab1;
+}
+
+@media only screen and ( min-width:496px) and (max-width: 676px)  {
+    nav img{
+        width: 150px;
+        margin-top: 7px;
+        
+    }
+    nav div > div:last-child a{
+       
+        display: none;
+        
+    }
+}
+@media only screen and ( min-width:676px) and (max-width: 868px)  {
+    nav img{
+        width: 120px;
+        margin-top: 5px;
+        
+    }
+    nav div > div:last-child a{
+        font-size:15px ;
+        font-weight: 300;
+        margin: 5px 2px;
+        /* display: none; */
+        
+    }
+}
+@media only screen and ( min-width:868px) and (max-width: 1092px)  {
+    nav img{
+        width: 200px;
+       
+    }
+    nav div > div:last-child a{
+        font-size:15px ;
+        font-weight: 500;
+        
+    }
+}
+
+/* ---------end-nav----------- */
+
+.sec-1{
+    width: 100%;
+    height: 800px;
+    background-image: url(./image/background-img.jpg);
+    /* --------------focus-ont-his--------- */
+
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-color: black;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+/* ---------------------------this it is very important----- ---------*/
+.sec-1 > .shadow{
+    width: 100%;
+    height: 800px;
+    /* -----focus-on--no exit other div---- */
+    position: absolute;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 48%, rgba(25,111,81,1) 100%);
+    opacity: 0.3;
+}
+.sec-1 > div:last-child{
+    color: white;
+    width: 60%;
+    margin-left: 10%;
+    position: absolute;
+    z-index: 1;
+}
+.sec-1 > div:last-child > .one > p:first-child{
+    color: #58cab1;
+    font-size: 17px;
+    font-weight: 700;
+}
+.sec-1 > div:last-child > .one > h1{
+    font-size: 60px;
+    margin: 10px 0;
+}
+.sec-1 > div:last-child > .one > h1 > span{
+    color: #58cab1;
+}
+.sec-1 > div:last-child > .one > .line{
+    width: 100px ;
+    height: 2px;
+    background-color: #58cab1; 
+    margin-bottom: 20px;  
+}
+.sec-1 > div:last-child > .one {
+    margin-bottom: 30px;
+}
+.sec-1 > div:last-child > .one > p:last-child{
+font-size: 14px;
+color: rgba(225, 253, 253, 0.63);
+}
+.sec-1 > div:last-child > .two {
+    display: flex;
+    align-items: center;
+}
+.sec-1 > div:last-child > .two > div:first-child{
+    width: 80px;
+    height: 80px;
+    background-color: #58cab1;
+    border-radius: 50px;
+    box-shadow: 1px 1px 10px rgb(40, 202, 175);
+    box-shadow: 2px 2px 10px rgb(25, 199, 170);
+}
+.sec-1 > div:last-child > .two > div{
+    margin:  25px 10px;
+}
+.sec-1 > div:last-child > .two > div:first-child >i{
+    font-size: 25px;
+    margin: 29px 33px;
+}
+.sec-1 > div:last-child > .two> div> .line{
+    width: 70px ;
+    height: 2px;
+    background-color: #58cab1; 
+    margin-bottom: 10px;  
+    margin-top: 10px;
+}
+/* ----------sec-1-end---------- */
+
+
+
+.sec-3{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+.sec-3 >div{
+    width: 90%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec-3 >div>div{
+    width: 47%;
+    height: 100px;
+    margin: 0 10px;
+}
+.sec-3 >div> .text{
+    width: 47%;
+    height: 100px;
+    margin-top: 100px;
+}
+.sec-3 >div> .text> p:first-child{
+    color: #58cab1;
+    font-size: 25px;
+    font-weight: 500;
+    margin: 50px 0;
+    margin-bottom: 5px;
+}
+.sec-3 >div> .text> h1{
+    font-size: 60px;
+    color: white;
+}
+.sec-3 >div> .text> h1>span{
+    color: #58cab1;
+}
+.sec-3> div> .text > .line{
+    width: 150px ;
+    height: 5px;
+    background-color: #58cab1; 
+    margin: 15px ;
+}
+.sec-3 >div> .text> p:nth-child(4){
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 20px;
+    margin: 20px 0;
+}
+.sec-3 >div> .text> p:nth-child(5){
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 20px;
+    margin: 20px 0;
+}
+.sec-3 >div> .text> button{
+    width: 150px;
+    height: 70px;
+    background-color: #58cab1;
+    color: white;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+    transition: all 0.4s ease;
+}
+.sec-3 >div> .text> button:hover{
+    background-color:#151515;
+    border: 3px solid #58cab1;
+    transform: translateY(-15px);
+}
+.sec-3 >div> .icon{
+    width: 60%;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 10px;
+}
+
+.sec-3 >div> .icon> .none-light{
+    width: 47%;
+    /* height: 320px; */
+    background-color:rgba(17, 16, 16, 0.925);
+    
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+.sec-3 >div> .icon> .none-light:hover{
+    background: linear-gradient(180deg, rgba(0,4,2,0.7259278711484594) 48%, rgba(44,145,96,0.5326505602240896) 100%);
+    background-color: rgba(17, 16, 16, 0.925);
+    transform: translateY(-15px);
+    h3{
+        color: #58cab1;
+    }
+    p{
+        color: white;
+    }
+}
+
+.sec-3 >div> .icon> .none-light>div{
+    width: 47%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.sec-3 >div> .icon> .none-light>div>img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.sec-3 >div> .icon> .none-light>div>h3{
+    width: 220%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 15px 0;
+    z-index: 5px;
+}
+.sec-3 >div> .icon> .none-light>div>p{
+    width: 220%;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.664);
+    text-align: center;
+}
+
+
+
+.sec-3 >div> .icon> .light{
+    width: 47%;
+    /* height: 320px; */
+    background: rgb(0,4,2);
+    background: linear-gradient(180deg, rgba(0,4,2,0.7259278711484594) 48%, rgba(44,145,96,0.5326505602240896) 100%);
+    background-color: rgba(17, 16, 16, 0.925);
+    margin: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.sec-3 >div> .icon> .light:hover{
+    background: rgb(0,4,2);
+    transform: translateY(-15px);
+    h3{
+        color: #58cab1;
+    }
+    p{
+        color: white;
+    }
+}
+.sec-3 >div> .icon> .light>div{
+    width: 47%;
+    height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.sec-3 >div> .icon> .light>div>img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.sec-3 >div> .icon> .light>div>h3{
+    width: 220%;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin: 15px 0;
+}
+.sec-3 >div> .icon> .light>div>p{
+    width: 220%;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.664);
+    text-align: center;
+    
+}
+
+
+/* @media only screen and ( min-width:396px) and (max-width: 576px)  {
+    
+    
+}
+@media only screen and ( min-width:576px) and (max-width: 768px)  {
+   
+}
+@media only screen and ( min-width:768px) and (max-width: 992px)  {
+    
+    .sec-3{
+        width: 100%;
+        height: 900px;
+    }
+    .sec-3 >div{
+       display: block;
+        margin-top: 0;
+        padding: 0;
+        
+    }
+} */
+
+
+
+ /* -----------------------sce-3--------------------- */
+
+
+.sec-4{
+    width: 100%;
+    height: 750px;
+    background-color: #151515;
+}
+.sec-4 > div{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.sec-4 > div>div{
+    width:48% ;
+}
+.sec-4 > div>div>img{
+    margin-top:100px ;
+}
+.sec-4 .right{
+    margin-top:170px ;
+}
+
+.sec-4 > .text{
+    width: 100%;
+    
+}
+.sec-4  .text>p:nth-child(1){
+    color: #58cab1;
+    font-size: 20px;
+    font-weight: 700px;
+    margin: 10px 0;
+}
+
+.sec-4  .text>h1{
+    font-size: 50px;
+    color: white;
+}
+.sec-4  .text>h1>span{
+    font-size: 50px;
+    color:#58cab1;
+}
+
+.sec-4  .text>p:nth-child(4){
+    color: rgba(255, 255, 255, 0.582);
+    width: 100%;
+    font-size: 20px;
+    width: 950px;
+    /* font-weight: 500px; */
+}
+.sec-4  .text>.line{
+    width: 130px ;
+    height: 3px;
+    background-color: #58cab1; 
+    margin: 15px 0;
+}
+
+.sec-4 .right-down  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec-4 .right-down >div  {
+    display: flex;
+    margin: 40px 0;
+}
+.sec-4 .right-down img{
+    width: 100px;
+    height: 100px;
+    margin: 0 15px;
+}
+.sec-4 .right-down h1{
+    color: white;
+}
+.sec-4 .right-down p{
+    width: 220px;
+    margin: 10px 0;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+@media only screen and ( min-width:396px) and (max-width: 676px)  {
+   
+}
+@media only screen and ( min-width:676px) and (max-width: 868px)  {
+   
+}
+@media only screen and ( min-width:868px) and (max-width: 1092px)  {
+  
+}
+
+
+/* -----------sec-5------------ */
+.sec-5{
+    width: 100%;
+    height: 360px;
+    background-image: url(./image/background-img-2.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+    
+}
+.sec-5 > div{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sec-5 > .shadow{
+    width: 100%;
+    height: 360px;
+    /* -----focus-on--no exit other div---- */
+    position: absolute;
+    background: rgb(0,4,2);
+    background: linear-gradient(270deg, rgba(0,4,2,0.969625350140056) 60%, rgba(76,199,139,0.9640231092436975) 100%);
+    opacity: 0.3;
+}
+
+.sec-5 .img > div{
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec-5 .img > div > img{
+    width:100px;
+}
+.sec-5 .img > div > h1{
+    font-size: 80px;
+    text-align: center;
+    color: #58cab1;
+}
+
+.sec-5 .img > div > h1 > span{
+    font-size: 50px;
+    color: white;
+    
+}    
+.sec-5 .img > div > p{
+    font-size: 25px;
+    font-weight: 500;
+    color: white;
+    
+}
+/* ---------sec-5-end------------- */
+  .sec-6{
+    width: 100%;
+    height: 1100px;
+    background-color: black;
+}
+
+
+.sec-6 > div{
+    width: 80%;
+    height: 80%;
+    
+}
+.sec-6 div > .p-1 p:nth-child(1){
+    color: #58cab1;
+    font-size: 20px;
+    font-weight: 700px;
+    padding: 10px 20px;
+    padding-top: 90px;
+    
+}
+
+.sec-6 div > .p-1 h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: white;
+    padding: 10px 20px;
+}
+.sec-6 div > .p-1 h1 > span{
+    color: #58cab1;
+}
+.sec-6 > div> .p-1 > .line{
+    width: 150px ;
+    height: 5px;
+    background-color: #58cab1; 
+    margin: 15px 20px;
+}
+.sec-6 div > .p-2 p{
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.63);
+    padding: 10px 20px;
+}
+
+.sec-6 div > .p-3 {
+    margin: 30px 20px;
+    
+}
+
+.sec-6 div > .p-3 p {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.822);
+    padding: 10px;
+}
+
+.sec-6 div > .p-3 p >i{
+    color: #58cab1;
+    margin-right: 10px;
+}
+.box{
+    width: 120%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+   
+}
+.sec-6  .imgbox-1 { 
+    width:40%;
+    height: 450px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/bg-hover-1.jpg);
+    background-size: cover;
+    position: relative;
+    z-index: 1; 
+    overflow:hidden;
+
+
+}
+
+.sec-6 .shadow{
+    width:100% ;
+    height: 460px;
+    opacity: 0;
+    /* background-color: #151515d0; */
+    transition: 1s;
+    transform: translateY(100px);
+    overflow:hidden;
+    position: absolute;
+    z-index: -1;
+
+}
+.sec-6 .content{
+    position: absolute;
+    z-index: 2;
+}
+.sec-6  .box>div:hover .shadow{
+    opacity: 1;
+    transform: translateY(-5px);
+    overflow: hidden;
+    background-color: #151515c4;
+} 
+
+.sec-6  .imgbox-2 { 
+    width:40%;
+    height: 450px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/bg-hover-2.jpg);
+    background-size: cover;
+    background-color:#151515ab ;
+    position: relative;
+    z-index: 1;
+}
+.sec-6  .imgbox-3 { 
+    width:40%;
+    height: 450px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/bg-hover-3.jpg);
+    background-size: cover;
+    background-color:#151515ab;
+    position: relative;
+    z-index: 1;
+}
+.sec-6  .imgbox-4 { 
+    width:40%;
+    height: 450px;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./image/bg-hover-4.jpg);
+    background-size: cover;
+    background-color:#151515ab;
+    position: relative;
+    z-index: 1;
+}
+.sec-6  .content  div:first-child{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+.sec-6  .content  i{
+width: 50px;
+height: 50px;
+margin: 5px;
+display: flex;
+
+justify-content: center;
+align-items: center;
+background-color: #58cab1;
+color: white;
+border-radius: 50%;
+opacity: 0;
+transition: 1s;
+transform: translateY(-100px);
+}
+.sec-6  .content  div:last-child{
+    display: flex;
+    justify-content: center;
+align-items: center;
+}
+
+.sec-6  .content  h1{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    opacity: 0;
+    transition: 1s;
+    transform: translateY(100px);
+}
+
+.sec-6 .box>div:hover .content i{
+    opacity: 1;
+    transform: translateY(10px);
+    
+}
+.sec-6 .box>div:hover .content h1{
+    opacity: 1;
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.sec-7 {
+    width: 100%;
+    height: 300px;
+    background-image: url(./image/background-img-2.5.jpg);
+    background-attachment: fixed;
+    background-size: cover; 
+
+}
+.sec-7 > div{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.sec-7 > .shadow{
+    width: 100%;
+    height: 300px;
+    /* -----focus-on--no exit other div---- */
+    position: absolute;
+    
+    background: rgb(0,4,2);
+    background: linear-gradient(90deg, rgba(0,4,2,0.969625350140056) 60%, rgba(76,199,139,0.9640231092436975) 100%); 
+    opacity: 0.3;
+}
+
+.sec-7 > div >img{
+    width: 23%;
+    margin: 10px;
+    filter:brightness(80%) contrast(100%) saturate(0%);
+    transition:  1.0s;
+}
+.sec-7 > div >img:hover{
+    filter: none;
+}
+/* --------sec-7-end---------- */
+.sec-8{
+    width: 100%;
+    height: 1100px;
+    background-image: url(./image/background-img-3.5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white; 
+}
+
+.sec-8 > div{
+    width: 80%;
+    height: 80%;
+    position: relative;
+    
+}
+.sec-8 > .shadow{
+    width: 100%;
+    height: 1100px;
+    /* -----focus-on--no exit other div---- */
+    position: absolute;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 48%, rgba(25,111,81,1) 100%);
+    opacity: 0.3;
+}
+.sec-8 > div > .text{
+    text-align: center;
+    margin-bottom: 80px;
+}
+.sec-8 > div > .text >p:first-child{
+    color: #58cab1;
+    font-size: 17px;
+    font-weight: 700;   
+}
+.sec-8 > div > .text > h1{
+    font-size: 60px;
+    margin: 10px 0;
+}
+.sec-8 > div > .text > h1 > span{
+    color: #58cab1;
+}
+.sec-8 > div> .text > .line{
+    width: 130px ;
+    height: 3px;
+    background-color: #58cab1; 
+    margin: 15px auto;
+}
+.sec-8> div > .text > p:last-child{
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(225, 253, 253, 0.692);
+}
+.sec-8 >div>.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sec-8 >div >.card > .item{
+    width: 47%;
+    height: 320px;
+    margin: 15px;
+    display: flex;
+    background-color: #151515;
+}
+.sec-8 >div >.card > .item >div{
+    width: 47%;
+    height: 100%;
+}
+.sec-8 >div >.card > .item > .img>img{
+    width: 100%;
+    filter:brightness(80%) contrast(100%) saturate(0%);
+    transition: all 1s;
+}
+.sec-8 >div >.card > .item > .img>img:hover{
+    filter: none;
+}
+.sec-8 >div >.card > .item> .child-text>h4:nth-child(1){
+font-size: 30px;
+margin: 10px 0;
+}
+.sec-8 > div > .card > .item > .child-text {
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sec-8 > div > .card > .item > .child-text > p:nth-child(8){
+    color: #58cab1;
+    margin: 10px 0;
+}
+.sec-8 > div > .card > .item > .child-text > p:nth-child(3){
+    font-size: 18px;
+    font-weight: 500;
+    width: 300px;
+    color: rgba(225, 253, 253, 0.692);
+    margin: 10px 0;
+}
+.sec-8 > div > .card > .item > .child-text > .icon >i{
+    color: #58cab1;
+    font-size: 20px;
+    margin: 10px;
+    transition: all 1s;
+}
+.sec-8 > div > .card > .item > .child-text > .icon >i:hover{
+    color: white;
+    transform:translatey(-12px);
+}
+
+/* ---------sce-8-end --------- */
+
+
+footer{
+    width: 100%;
+    height: 500px;
+    background-color:#151515;
+}
+footer> div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+footer img{
+    width: 250px;
+    margin-top: 50px;
+}
+footer a{
+    text-decoration: none;
+    color:#58cab1;
+    font-size: 18px;
+    margin: 10px;
+    font-weight: 700;
+    transition: all 0.5s;
+}
+footer  a:hover{
+    color: white;
+}
+footer .text p{
+    width: 500px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+
+}
+footer .icon >i{
+    color: #58cab1;
+    font-size: 30px;
+    margin: 20px;
+    transition: all 1s;
+}
+footer .icon >i:hover{
+    color: white;
+    transform:translatey(-15px);
+}
+
+footer .end p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.637);
+    text-align: center;
+    margin-top: 15px;
+}
+/* -------------End- footer------------- */
